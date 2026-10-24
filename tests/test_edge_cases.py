@@ -1,4 +1,4 @@
-# Edge-case unit test suite for minimal dotenv parser (Rev #1 - 2026-10-23T10:19:02Z)
+# Edge-case unit test suite for minimal dotenv parser (Rev #2 - 2026-10-24T10:30:54Z)
 import unittest
 
 def parse_line(line: str):
@@ -9,7 +9,7 @@ def parse_line(line: str):
     return k.strip(), v.strip().strip('"\'')
 
 class TestDotenvEdgeCases(unittest.TestCase):
-    def test_quoted_value_rev_1(self):
+    def test_quoted_value_rev_2(self):
         self.assertEqual(parse_line('API_URL="https://example.com"'), ('API_URL', 'https://example.com'))
 
 if __name__ == '__main__':
