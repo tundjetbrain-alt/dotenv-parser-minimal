@@ -1,4 +1,4 @@
-# Edge-case unit test suite for minimal dotenv parser (Rev #2 - 2026-10-24T10:30:54Z)
+# Edge-case unit test suite for minimal dotenv parser (Rev #2 - 2026-10-24T10:20:51Z)
 import unittest
 
 def parse_line(line: str):
